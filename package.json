@@ -7,7 +7,7 @@
     "eslint:check": "npx eslint src/**/*.ts",
     "eslint:fix": "npm run eslint:check -- --fix",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node dist/index.js",
+    "start": "npm run build && node dist/server.js",
     "start:dev": "nodemon"
   },
   "author": "rlcdev",
